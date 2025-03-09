@@ -19,21 +19,29 @@ discuss, or solve throughout the course of the project.
 \section{Solution Overview}
 \label{section:solution-overview}
 
-A software solution overview provides a high-level and
-concise description of a software product or system. It serves as an
-introduction to the software, offering a glimpse into its key features,
-functionalities, and the problems it aims to address. This overview is often
-presented in documentation, marketing materials, or other communication
-channels to give stakeholders, potential users, or decision-makers a quick
-understanding of what the software does and why it is valuable.
+KU-Parking is a mobile application that leverages existing surveillance cameras to detect and display available parking spots in real-time.
+The system processes camera feeds through cloud-based computer vision that identifies parking spaces, detects vehicles using YOLO, and determines occupancy through IoU calculations.
+Users can view current parking availability and navigate directly to vacant spots, eliminating wasted search time without requiring new infrastructure installation.
+
+% A software solution overview provides a high-level and
+% concise description of a software product or system. It serves as an
+% introduction to the software, offering a glimpse into its key features,
+% functionalities, and the problems it aims to address. This overview is often
+% presented in documentation, marketing materials, or other communication
+% channels to give stakeholders, potential users, or decision-makers a quick
+% understanding of what the software does and why it is valuable.
 
 \subsection{Features}
 \label{subsection:features}
 
 \begin{enumerate}[leftmargin=80pt]
-    \item Feature Name: Short Description of Feature
-    \item Feature Name: Short Description of Feature
-\end{enumerate}
+    % TODO: to be update just a place holder
+    \item Real-time Occupancy Detection: Identifies vacant and occupied parking spots using computer vision and IoU analysis.
+    \item Cloud-based Processing: Analyzes camera feeds remotely without requiring on-site hardware installation.
+    \item Mobile Navigation: A smartphone application that guides users directly to available parking lots. It integrates with third-party mapping services like Google Maps, providing real-time directions and location information.
+    \item Existing Infrastructure Integration: Utilizes already-installed surveillance cameras instead of new sensors.
+    \item Parking Availability Dashboard: Displays the number and location of available spots in each parking area.
+    \end{enumerate}
 
 \section{Target User}
 \label{section:target-user}
